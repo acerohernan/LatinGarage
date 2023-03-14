@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "ES2015",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": true,
+    "emitDeclarationOnly": false,
+    "moduleResolution": "node",
+    "noEmit": false,
+    "skipLibCheck": true,
+    "jsx": "react",
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "src/**/*.stories.tsx", "src/__tests__/**/*"]
+}

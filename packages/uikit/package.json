@@ -1,0 +1,32 @@
+{
+  "name": "@latingarage/uikit",
+  "version": "1.0.0",
+  "description": "Set of components of Latin Garage's frontend projects",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "keywords": [],
+  "author": "acerohernan",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "eslint src/**/*.{js,ts,jsx,tsx}",
+    "format": "prettier --write src/**/*.{js,ts,jsx,tsx}",
+    "build": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@rollup/plugin-url": "^8.0.1",
+    "@types/styled-system": "^5.1.16",
+    "rollup": "^2.79.1",
+    "tslib": "^2.5.0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.9"
+  },
+  "dependencies": {
+    "styled-system": "^5.1.5"
+  }
+}
